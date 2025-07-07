@@ -1,0 +1,4 @@
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+& "C:\Users\Christian\Desktop\FastAPI\venv\Scripts\Activate.ps1"
+
+uvicorn app.main:app --reload
